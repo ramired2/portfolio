@@ -9,12 +9,12 @@ const AboutMe = () => {
       <h1 className="subtopic centerDiv text">Daisy Ramirez</h1>
 
       <div>
-         <h4 className='subsubtopic centerDiv text' >About Me</h4>
+         <h3 className='subsubtopic centerDiv text' >About Me</h3>
       </div>
       {/* </div> */}
       <div className='section'>
     <div className='indivSect'>
-      <h6 className='subsubtopic text'>My Interests</h6>
+      <h4 className='subsubtopic text'>My Interests</h4>
       <div className='description line text'>
         <p >i first became interested in CS in my 
             freshman year of high school. I watched a documentary about a variety
@@ -34,20 +34,23 @@ const AboutMe = () => {
         to continue to become better through future projects!</p>
         </div></div>
         <div className='indivSect indivGroup'>
-        <h6 className='subsubtopic  text interestAlign'>Quick Facts</h6>
+            <div className='subSect'>
+        <h4 className='subsubtopic  text interestAlign marginFixQuick'>Quick Facts</h4>
       <ul className='listAlign line'>
         <li className='text description listAlign firstListItem'>i transfered to Oregon State from Pacific University in 2020</li>
         <li className='text description listAlign'>i first wanted to be a CS major in ~2015</li>
         <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
         <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
       </ul>
-        {/* <h6 className='subsubtopic  text interestAlign'>Fun Facts</h6>
+      </div>
+      <div className='subSect'>
+        <h4 className='subsubtopic  text interestAlign marginFixFun'>Fun Facts</h4>
       <ul className='listAlign line'>
-        <li className='text description listAlign firstListItem'>i transfered to Oregon State from Pacific University in 2020</li>
-        <li className='text description listAlign'>i first wanted to be a CS major in ~2015</li>
-        <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
-        <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
-      </ul> */}
+        <li className='text description listAlign firstListItem'>i have four siblings</li>
+        <li className='text description listAlign'>i have a dog and cat named Greg and Mabel</li>
+        <li className='text description listAlign'>i'm currently learning to crochet</li>
+      </ul>
+      </div>
       </div>
       </div>
         

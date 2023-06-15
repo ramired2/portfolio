@@ -23,7 +23,7 @@ function App() {
       <Navbar/>
       <Router>
         <Switch>
-          <Route exact path="/" component={AbtMe} />
+          <Route exact path="/aboutme" component={AbtMe} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/404" component={ErrorP} />
           <Route path="*" element={<Redirect to="/404" />}/>

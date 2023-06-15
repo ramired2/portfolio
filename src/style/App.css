@@ -153,9 +153,24 @@ p a {
   display: inline-flex;
 }
 
-/* .indivGroup {
+.indivGroup {
+  /* vertical-align: top; */
+  display: inline-grid;
+}
+
+
+.subSect {
   display: flex;
-} */
+  display: inline-flex;
+}
+
+.marginFixFun {
+  margin-right: 32px;
+}
+
+.marginFixQuick {
+  margin-right: 9px;
+}
 
 /* descriptions */
 .description {
