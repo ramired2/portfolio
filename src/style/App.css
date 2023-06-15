@@ -143,11 +143,19 @@ p a {
 }
 
 .section {
-  display: inline-flex;
+  width: auto;
+  height: auto;
   padding-top: 20px;
 }
 
-.diffSection {}
+.indivSect {
+  vertical-align: top;
+  display: inline-flex;
+}
+
+/* .indivGroup {
+  display: flex;
+} */
 
 /* descriptions */
 .description {
