@@ -1,23 +1,28 @@
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
 
+import React, { useState } from 'react';
+
+import Navbar from './components/Navbar.js';
+import AbtMe from './pages/AboutMe.js';
+import Projects from './pages/Projects';
+
+import {
+  BrowserRouter as Router, // store the components and its routes as an object
+  Route, // a statement that holds the specific path of the app and the component's name, renders it once it matches the URL
+  Switch, // renders the default components once the app rendered, switches between Switch as needed
+} from "react-router-dom";
+{/* <img src={logo} className="App-logo" alt="logo" /> */}
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={AbtMe} />
+          <Route exact path="/projects" component={Projects} />
+        </Switch>
+      </Router>
     </div>
   );
 }
