@@ -2,67 +2,80 @@ import { setState, } from 'react';
 import React from 'react';
 import link from '../media/link15.png';
 import linkB from '../media/link15blue.png';
+import DisplayProj from '../components/DisplayProj';
 
 
 const AboutMe = () => {
+  // diff projs infos
+  const proj1 = {
+      name:"WikiFamily",
+      github:"https://github.com/matyevaa/wikifamily",
+      type:"video",
+      video:"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_nqloaa1h&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_0ygcxt4w",
+      langs: ["Python Flask", "ReactJS", "MySQL"],
+      desc:"Wikifamily is a geneology website that helps users map out their family trees. Fun features include: third party login, two different family tree views, a collapsable family tree, and family tree sharing whether it be the complete family tree or a smaller segment of the family",
+  };
+
+  const proj2 = {
+    name:"Randomate",
+    github:"https://github.com/ramired2/randomate/tree/main",
+    type:"gif",
+    video:link,
+    langs: ["Python Flask"],
+    desc:"A small webapp that uses the Spotify API to get a list of playlists based on a user's search word. Users can then see what songs are included from their choice of playlist. Moreover, Randomate uses webscraping to pull the top tracks from a variety of different Billboard charts.",
+  };
+
+  const proj3 = {
+    name:"Space Colonization",
+    github:"https://github.com/ramired2/cs340-spaceCol",
+    type:"gif",
+    video:link,
+    langs: ["ReactJS", "Python Flask", "MySQL"],
+    desc:"In the year xx34, Earth has reduced its number of natural resources available so nations have taken to exploring outer space for resources. This website is meant to help the UN keep track of nations and their presence in outer space to decrease the chances of space wars and to prevent nations from taking or hoarding too many resources as per UN mandates.",
+  };
+
+  // const proj4 = {
+  //   name:"Randomate",
+  //   github:"https://github.com/ramired2/randomate/tree/main",
+  //   type:"gif",
+  //   video:link,
+  //   langs: ["Flask", "Python"],
+  //   desc:"",
+  // };
+
+  // const proj5 = {
+  //   name:"Randomate",
+  //   github:"https://github.com/ramired2/randomate/tree/main",
+  //   type:"gif",
+  //   video:link,
+  //   langs: ["Flask", "Python"],
+  //   desc:"",
+  // };
+
+  // const proj6 = {
+  //   name:"Randomate",
+  //   github:"https://github.com/ramired2/randomate/tree/main",
+  //   type:"gif",
+  //   video:link,
+  //   langs: ["Flask", "Python"],
+  //   desc:"",
+  // };
 
   return(
   <div className="centerDiv">
     <div className="content text">
       <h1>hi</h1>
       <div>
-        <div className='indivProject section'>
-          {/* <div className='projImg'><h2 className='projName'><a className='text' href="https://github.com/matyevaa/wikifamily">WikiFamily</a></h2> <a href="https://github.com/matyevaa/wikifamily"><img id='imgsrc' src={link} className="githubRepo" alt="github repo" /></a></div> */}
+      <DisplayProj info={proj1}></DisplayProj>
 
-          <div className='projImg'><h2 className='projName'><a className='text' 
-            href="https://github.com/matyevaa/wikifamily">WikiFamily</a></h2> 
-            
-            <a href="https://github.com/matyevaa/wikifamily">
-            <img src={link} id='imgsrc' 
-            onMouseEnter={e => (e.currentTarget.src = linkB)}
-            onMouseOut={e => (e.currentTarget.src = link)}
-            // onMouseOut={this.src = require('../media/link15blue.png')}
-            alt="github repo" /></a></div>
+      <DisplayProj info={proj2}></DisplayProj>
 
-          <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_nqloaa1h&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_0ygcxt4w" width="480" height="304" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="WikiFamily"></iframe>
-          <ul className="langs projText">
-            <li>Python Flask</li>
-            <li>ReactJS</li>
-            <li>MySQL</li>
-          </ul>
+      <DisplayProj info={proj3}></DisplayProj>
 
-          {/* <ul className="features projText">
-            <li>Third party-login</li>
-            <li>ReactJS</li>
-            <li>MySQL</li>
-          </ul> */}
-          <p className='projText description'>Wikifamily is a </p>
-        </div>
 
-        <div className='indivProject section'>
-        <div className='projImg'><h2 className='projName'><a className='text' 
-            href="https://github.com/matyevaa/wikifamily">WikiFamily</a></h2> 
-            
-            <a href="https://github.com/matyevaa/wikifamily">
-            <img src={link} id='imgsrc' 
-            onMouseEnter={e => (e.currentTarget.src = linkB)}
-            onMouseOut={e => (e.currentTarget.src = link)}
-            // onMouseOut={this.src = require('../media/link15blue.png')}
-            alt="github repo" /></a></div>
-          <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_nqloaa1h&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_0ygcxt4w" width="480" height="304" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="WikiFamily"></iframe>
-          <ul className="langs projText">
-            <li>Python Flask</li>
-            <li>ReactJS</li>
-            <li>MySQL</li>
-          </ul>
 
-          {/* <ul className="features projText">
-            <li>Third party-login</li>
-            <li>ReactJS</li>
-            <li>MySQL</li>
-          </ul> */}
-          <p className='projText description'>Wikifamily is a </p>
-        </div>
+
+        
       </div>
     </div>
 
