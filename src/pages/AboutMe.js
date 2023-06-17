@@ -21,7 +21,7 @@ const AboutMe = () => {
             of groups consisting of high school girls taking a problem within their 
             community and making an app to solve/ reduce the issue of their 
             chosen problem. Watching 
-            <a className="link" href="https://www.codegirlmovie.com/" target="_blank"> CODEGirl </a>
+            <a className="txtLink" href="https://www.codegirlmovie.com/" target="_blank"> CODEGirl </a>
             was insightful and introduced me into something that I had only ever 
             associated with hacking like i'd seen on TV or in movies.  
         </p>

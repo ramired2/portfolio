@@ -56,18 +56,18 @@ body {
   z-index: 1;
 }
 
+/* for navbar links */
 .active a {
   color: #C8E087; /* link colorzs for lists */
   font-weight: 500;
   font-size: 22px;
   text-decoration: none;
   text-align: center;
-  /* padding: 30px 30px; //distance btw nav bar options */
   margin: 40px;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #61dafb;
 }
 
@@ -84,17 +84,15 @@ a:hover {
   /* overflow-wrap: normal; */
 }
 
-/* PAGES */
+/* ABOUTME */
 .centerDiv {
   display: flex;
   justify-content: center;
-  /* margin-top: 130px; */
 }
 
 .content {
-  margin: 25px 0px 75px 0px;
+  margin: 25px 0px 0px 0px;
   padding: 50px;
-  /* background-color: #f2f2f2f7; */
   position: relative;
   text-align: center;
   /* box-shadow: 10px 10px 5px #A5C4D4; */
@@ -109,14 +107,12 @@ a:hover {
   font-weight: bold;
 }
 
+/* for subsub topic text only */
 .subsubtopic h6 {
   margin-right: 10px;
 }
 
 .subsubtopic {
-    /* height: calc(auto * 20%); */
-    /* height: auto; */
-
     text-align: center;
     font-size: 23px;
     margin-top: 50px;
@@ -125,6 +121,7 @@ a:hover {
     font-weight: bold;
 }
 
+/* for vertical line */
 .line {
   border-left: 3px solid #DAD4EF;
   text-align: center;
@@ -133,19 +130,28 @@ a:hover {
   height: fit-content;
   margin-left: 15px;
 }
-p a {
-  color: #DAD4EF;
+
+/* for link in text */
+.txtLink {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.txtLink:hover{
+  color: #C8E087;
   text-decoration: none;
 }
 
 .text {
   color: #C8E087;
+  text-decoration: none;
 }
 
 .section {
   width: auto;
   height: auto;
   padding-top: 20px;
+  display: inline-block;
 }
 
 .indivSect {
@@ -154,7 +160,6 @@ p a {
 }
 
 .indivGroup {
-  /* vertical-align: top; */
   display: inline-grid;
 }
 
@@ -199,5 +204,33 @@ p a {
   margin-top: 1px;
 }
 
+/* PROJECTS */
+.projText {
+  text-align: left;
+}
 
+.indivProject {
+  margin: 50px;
+  padding: 30px 45px;
+  border-radius: 5px;
+  background-color: #2a262a;
+  box-shadow: 3px 3px 7px #C8E087;
+}
 
+.projName {
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* .projImg {
+  display: flex;
+} */
+
+.src {
+  position: relative;
+  top: 70px;
+  right: -80px;
+}
