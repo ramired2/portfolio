@@ -38,12 +38,12 @@
 }
 
 body {
-  background-color: #080708;
+  background-color: #120f12;
 }
 
 /* NavBar */
 .nav {
-  background-color: #080708;
+  background-color: #140e14;
   display: flex;
   position: fixed;
   align-items: center;
@@ -52,7 +52,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 6px 0 #DAD4EF;
+  box-shadow: 0 0 6px 0 #C8E087;
   z-index: 1;
 }
 
@@ -152,6 +152,7 @@ a:hover {
   height: auto;
   padding-top: 20px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .indivSect {
@@ -232,5 +233,4 @@ a:hover {
 .src {
   position: relative;
   top: 70px;
-  right: -80px;
 }

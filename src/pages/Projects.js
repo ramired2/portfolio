@@ -6,6 +6,13 @@ import DisplayProj from '../components/DisplayProj';
 
 
 const AboutMe = () => {
+// projects to add -- 
+  // https://github.com/osu-cs492-w22/final-project-final_project_group11
+  // https://github.com/osu-cs492-w22/assignment-4-ramired2
+  // https://github.com/osu-cs290-f20/final-project-team-23
+  // https://github.com/osu-cs290-f20/assignment-5-ramired2
+
+
   // diff projs infos
   const proj1 = {
       name:"WikiFamily",
@@ -19,8 +26,8 @@ const AboutMe = () => {
   const proj2 = {
     name:"Randomate",
     github:"https://github.com/ramired2/randomate/tree/main",
-    type:"gif",
-    video:link,
+    type:"video",
+    video:"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_ygo1y1if&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_g2dc6xud",
     langs: ["Python Flask"],
     desc:"A small webapp that uses the Spotify API to get a list of playlists based on a user's search word. Users can then see what songs are included from their choice of playlist. Moreover, Randomate uses webscraping to pull the top tracks from a variety of different Billboard charts.",
   };
@@ -28,8 +35,8 @@ const AboutMe = () => {
   const proj3 = {
     name:"Space Colonization",
     github:"https://github.com/ramired2/cs340-spaceCol",
-    type:"gif",
-    video:link,
+    type:"video",
+    video:"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_fjjoe04s&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_n6efynpq",
     langs: ["ReactJS", "Python Flask", "MySQL"],
     desc:"In the year xx34, Earth has reduced its number of natural resources available so nations have taken to exploring outer space for resources. This website is meant to help the UN keep track of nations and their presence in outer space to decrease the chances of space wars and to prevent nations from taking or hoarding too many resources as per UN mandates.",
   };
@@ -71,10 +78,6 @@ const AboutMe = () => {
       <DisplayProj info={proj2}></DisplayProj>
 
       <DisplayProj info={proj3}></DisplayProj>
-
-
-
-
         
       </div>
     </div>
