@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <Switch>
           <Route exact path="/" component={AbtMe} />
           <Route exact path="/projects" component={Projects} />
