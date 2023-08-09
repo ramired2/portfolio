@@ -23,9 +23,9 @@ function App() {
       <Navbar/>
       <Router basename={window.location.pathname || ''}>
         <Switch>
-          <Route exact path="/portfolio/#/aboutme" component={AbtMe} />
-          <Route exact path="/portfolio//#/projects" component={Projects} />
-          <Route exact path="/portfolio//404" component={ErrorP} />
+          <Route exact path="/aboutme" component={AbtMe} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/404" component={ErrorP} />
           <Route path="*" element={<Redirect to="/404" />}/>
         </Switch>
       </Router>
