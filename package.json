@@ -10,17 +10,18 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^5.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "(set PORT=7000 || export PORT=7000) && react-scripts start",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts build", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://ramired2.github.io/aboutme",
+  "homepage": "https://ramired2.github.io/portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    
   }
 }
