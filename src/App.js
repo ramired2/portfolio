@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import ErrorP from './pages/404';
 
 import {
-  BrowserRouter as Router, // store the components and its routes as an object
+  HashRouter as Router, // store the components and its routes as an object
   Route, // a statement that holds the specific path of the app and the component's name, renders it once it matches the URL
   Switch, // renders the default components once the app rendered, switches between Switch as needed
 } from "react-router-dom";
@@ -23,9 +23,9 @@ function App() {
       <Navbar/>
       <Router>
         <Switch>
-          <Route exact path="/aboutme" component={AbtMe} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/404" component={ErrorP} />
+          <Route exact path="/gh-pages-url/aboutme" component={AbtMe} />
+          <Route exact path="/gh-pages-url/projects" component={Projects} />
+          <Route exact path="/gh-pages-url/404" component={ErrorP} />
           <Route path="*" element={<Redirect to="/404" />}/>
         </Switch>
       </Router>
