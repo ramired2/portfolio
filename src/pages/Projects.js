@@ -58,16 +58,7 @@ const AboutMe = () => {
   //   langs: ["Flask", "Python"],
   //   desc:"",
   // };
-
-  // const proj6 = {
-  //   name:"Randomate",
-  //   github:"https://github.com/ramired2/randomate/tree/main",
-  //   type:"gif",
-  //   video:link,
-  //   langs: ["Flask", "Python"],
-  //   desc:"",
-  // };
-
+  
   return(
   <div className="centerDiv">
     <div className="content text">

@@ -5,13 +5,12 @@ const AboutMe = () => {
   return(
   
     <div className="content">
-    {/* <div className="centerDiv"> */}
       <h1 className="subtopic centerDiv text">Daisy Ramirez</h1>
 
       <div>
          <h3 className='subsubtopic centerDiv text' >About Me</h3>
       </div>
-      {/* </div> */}
+      
       <div className='section'>
     <div className='indivSect'>
       <h4 className='subsubtopic text'>My Interests</h4>
