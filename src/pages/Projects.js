@@ -41,14 +41,14 @@ const AboutMe = () => {
     desc:"In the year xx34, Earth has reduced its number of natural resources available so nations have taken to exploring outer space for resources. This website is meant to help the UN keep track of nations and their presence in outer space to decrease the chances of space wars and to prevent nations from taking or hoarding too many resources as per UN mandates.",
   };
 
-  // const proj4 = {
-  //   name:"Randomate",
-  //   github:"https://github.com/ramired2/randomate/tree/main",
-  //   type:"gif",
-  //   video:link,
-  //   langs: ["Flask", "Python"],
-  //   desc:"",
-  // };
+  const proj4 = {
+    name:"BTSflix",
+    github:"https://github.com/ramired2/btsflix",
+    type:"video",
+    video:"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_1l6tkkd6&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_4ch8ft3h",
+    langs: ["ReactJS", "NodeJS", "MYSQL"],
+    desc:"A website to view BTS' Run BTS! episodes and view some of their group and individual discography ",
+  };
 
   // const proj5 = {
   //   name:"Randomate",
@@ -78,6 +78,8 @@ const AboutMe = () => {
       <DisplayProj info={proj2}></DisplayProj>
 
       <DisplayProj info={proj3}></DisplayProj>
+
+      <DisplayProj info={proj4}></DisplayProj>
         
       </div>
     </div>
