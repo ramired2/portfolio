@@ -6,7 +6,7 @@ import DisplayProj from '../components/DisplayProj';
 
 
 const AboutMe = () => {
-// projects to add -- 
+// projects to add -- -- 
   // https://github.com/osu-cs492-w22/final-project-final_project_group11
   // https://github.com/osu-cs492-w22/assignment-4-ramired2
   // https://github.com/osu-cs290-f20/final-project-team-23
