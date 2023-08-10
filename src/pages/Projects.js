@@ -62,7 +62,7 @@ const AboutMe = () => {
   return(
   <div className="centerDiv">
     <div className="content text">
-      <h1>hi</h1>
+      <h1>Projects I've Worked On</h1>
       <div>
       <DisplayProj info={proj1}></DisplayProj>
 
