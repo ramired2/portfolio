@@ -39,7 +39,6 @@ const AboutMe = () => {
         <li className='text description listAlign firstListItem'>i transfered to Oregon State from Pacific University in 2020</li>
         <li className='text description listAlign'>i first wanted to be a CS major in ~2015</li>
         <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
-        <li className='text description listAlign'>i love learning new things whether it be for profesional or personal purposes</li>
       </ul>
       </div>
       <div className='subSect'>

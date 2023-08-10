@@ -4,7 +4,7 @@ function Navbar(props) {
     return (
             <div className="nav">
               {/* <div className="navLogo">
-                <img className="logo"  src="/European_Space_Camp_logo.jpg" alt="Space Colonization Logo" />
+                <img className="logo"  src="/logo.jpg" alt="Space Colonization Logo" />
               </div> */}
   
               <div className="navLinks">
