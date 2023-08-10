@@ -6,6 +6,7 @@ const AboutMe = () => {
   
     <div className="content">
       <h1 className="subtopic centerDiv text">Daisy Ramirez</h1>
+      <h3 className='centerDiv'>djramrz@gmail.com</h3>
 
       <div>
          <h3 className='subsubtopic centerDiv text' >About Me</h3>
