@@ -46,7 +46,7 @@ const AboutMe = () => {
     github:"https://github.com/ramired2/btsflix",
     type:"video",
     video:"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_1l6tkkd6&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_4ch8ft3h",
-    langs: ["ReactJS", "NodeJS", "MYSQL"],
+    langs: ["ReactJS", "NodeJS", "MySQL"],
     desc:"A website to view BTS' Run BTS! episodes and view some of their group and individual discography",
   };
 
